@@ -1,0 +1,48 @@
+.main-container-dark {
+  background-color: black;
+}
+
+.btn-style-dark {
+  width: 90%;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+  outline: none;
+  margin-left: 5%;
+  font-family: "Staatliches", cursive;
+  margin-right: 5%;
+  letter-spacing: 3px;
+}
+.btn-style-dark:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* darkmode */
+.main-container-light {
+  background-color: whitesmoke;
+}
+
+.btn-style-light {
+  width: 90%;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+  outline: none;
+  margin-left: 5%;
+  font-family: "Staatliches", cursive;
+  margin-right: 5%;
+  background-color: #111;
+  color: antiquewhite;
+  letter-spacing: 3px;
+}
+.btn-style-light:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}

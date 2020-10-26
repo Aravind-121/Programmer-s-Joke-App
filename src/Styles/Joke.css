@@ -1,0 +1,54 @@
+.jokes-container-light {
+  display: flex;
+  align-items: center;
+  padding: 17px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #d3eef5;
+  margin-bottom: 1px;
+}
+.text-light {
+  width: 80vw;
+  color: #8e2de2;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+.votes-container-light {
+  text-align: center;
+  width: 20vw;
+}
+i {
+  cursor: pointer;
+}
+i,
+span {
+  margin-right: 10px;
+}
+.fa-arrow-down:hover {
+  color: #ff0038;
+}
+.fa-arrow-up:hover {
+  color: #00a86b;
+}
+
+/* 
+darkmode */
+
+.jokes-container-dark {
+  display: flex;
+  align-items: center;
+  padding: 17px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #111;
+  margin-bottom: 1px;
+}
+.text-dark {
+  width: 80vw;
+  color: #aa93f5;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+.votes-container-dark {
+  text-align: center;
+  width: 20vw;
+  color: white;
+}
